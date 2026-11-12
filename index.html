@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Party Menu</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px 16px;
+      color: #2f241f;
+      background: #f6efe5;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      width: min(680px, 100%);
+      padding: 48px;
+      background: #fffdf8;
+      border: 1px solid #d8c7ad;
+      border-radius: 18px;
+      box-shadow: 0 18px 45px rgba(80, 55, 35, 0.12);
+    }
+
+    h1 {
+      margin: 0;
+      color: #8a3f2d;
+      font-size: 4rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .subtitle {
+      margin: 8px 0 36px;
+      color: #9a765a;
+      text-align: center;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    section {
+      padding: 22px 0;
+      border-top: 1px solid #eadfce;
+      text-align: center;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      color: #b06b3d;
+      font-size: 1.2rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 1.9;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        padding: 36px 24px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Party Menu</h1>
+    <p class="subtitle">Eat · Drink · Celebrate</p>
+
+    <section>
+      <h2>Starters</h2>
+      <ul>
+        <li>Chicken Tikka Crostini</li>
+        <li>Paneer Tikka Crostini</li>
+        <li>Spiced Fish Ceviche</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Main Course</h2>
+      <ul>
+        <li>Butter Chicken</li>
+        <li>Paneer Makhani</li>
+        <li>Jeera Rice · Garlic Naan · Green Salad</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dessert</h2>
+      <ul>
+        <li>Gulab Jamun Cheesecake</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Drinks</h2>
+      <ul>
+        <li>Wine · Beer · Soft Drinks · Water</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
