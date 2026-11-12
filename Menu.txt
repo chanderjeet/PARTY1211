@@ -1,0 +1,22 @@
+# Party Menu
+
+## Starters
+- Chicken tikka crostini
+- Paneer tikka crostini
+- Spiced fish ceviche
+
+## Main Course
+- Butter chicken
+- Paneer makhani
+- Jeera rice
+- Garlic naan
+- Green salad
+
+## Dessert
+- Gulab jamun cheesecake
+
+## Drinks
+- Wine
+- Beer
+- Soft drinks
+- Water
